@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 70px;
+}
+
+.form {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 5px;
+    width: 80%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.inputFields {
+    width: 40vw;
+}
+
+.button {
+    width: 14vw;
+    height: 4vh;
+    border-radius: 10px;
+
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
